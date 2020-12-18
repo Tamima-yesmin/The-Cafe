@@ -1,0 +1,84 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar deign starts here */
+.nav-logo{
+    text-align: left;
+    
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+ 
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+/* navbar design ends here */
+
+/* profile design starts from here  */
+.top-weather-icon{
+    
+    right: 140px;
+    width: 120px;
+    transition: width 2s transform 2s;
+}
+.top-weather-icon:hover{
+    width: 140px;
+}
+
+.bottom-weather-icon{
+    
+    left: 170px;
+    width: 120px;
+    transition: width 2s transform 2s;
+}
+.bottom-weather-icon:hover{
+    width: 140px;
+}
+.profile-desc p{
+    margin:0 auto 20px;
+    width:50% ;
+}
+/* profile design ends  here  */
+
+
+/* about me design starts here  */
+.aboutme-img{
+    margin-top: 100px;
+}
+
+.aboutme-img img{
+    height: 370px;
+    width: 350px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+/* about me design ends here  */
+
+
+/* professional-experience starts here */
+.professional-experience{
+    padding: 1% 5%;
+}
+
+
+/* professional-experience ends here */
